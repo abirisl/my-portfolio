@@ -6,7 +6,7 @@ import Banner from './Banner';
 
 const Home = () => {
     return (
-        <div className='bg-slate-900'>
+        <div>
             <Banner></Banner>
             <About></About>
             <Skills></Skills>

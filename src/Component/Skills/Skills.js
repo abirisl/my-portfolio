@@ -5,8 +5,9 @@ import others from '../../images/others.jpg'
 
 const Skills = () => {
     return (
-        <div>
-            <h1 className='text-center text-4xl text-white'>My Skills</h1>
+        <div className='bg-slate-900 p-16 '>
+            <h1 className='text-center text-4xl font-bold text-white'>My Skills</h1>
+            <div class="divider w-52 text-rose-600 mx-auto font-bold secondary">what i provide</div> 
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mx-12 my-12'>
             <div class="card lg:max-w-lg bg-base-100 shadow-xl image-full mt-7">
                 <figure><img src={fontDeveloper} alt="Shoes" /></figure>

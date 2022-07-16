@@ -11,8 +11,8 @@ const Navbar = () => {
         <li><Link to='/contact'>Contact</Link></li>
     </>
     return (
-        <div class="navbar bg-slate-900 text-white">
-            <div class="navbar-start">
+         <div class="navbar bg-slate-900 text-white sticky top-0 z-50">
+            <div class="navbar-start ">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -21,10 +21,10 @@ const Navbar = () => {
                         {navItems}
                     </ul>
                 </div>
-                <Link to='/' className='ml-10 text-3xl font-bold'>MEET ME</Link>
+                <Link to='/' className='ml-10 text-3xl font-bold'>Portfo<span className='text-red-700'>lio</span></Link>
             </div>
             <div class="navbar-end hidden lg:flex">
-                <ul class="menu menu-horizontal p-0">
+                <ul class="menu menu-horizontal p-0 mx-10">
                     {navItems}
                 </ul>
             </div>
